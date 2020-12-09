@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song 1 "
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvArtiste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chanteur"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>
